@@ -1,1 +1,24 @@
+# Terraform State (NEVER commit these - contain sensitive data)
+*.tfstate
+*.tfstate.*
+
+# Terraform directories
 .terraform/
+
+# Terraform plan files
+*.tfplan
+
+# SSH Keys
+*.pem
+*.key
+
+# Sensitive tfvars
+*.auto.tfvars
+terraform.tfvars.local
+
+# Crash logs
+crash.log
+
+# OS files
+.DS_Store
+Thumbs.db
